@@ -6,8 +6,8 @@
 :root, .theme-light {
   --rgb-highlight: 4, 217, 255;
   --highlight: var(--text-color);
-  --background: #000900;
-  --text-color: #4AEF98;
+  --background: #070707;
+  --text-color: #9d2fe6;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
@@ -62,7 +62,7 @@
 
 /* --== Change font ==-- */
 html, body {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* --== Add CRT effect ==-- */
@@ -108,7 +108,7 @@ body *, .userPopout-3XzG_A * {
 .wordmarkWindows-1v0lYD::after {
   content: '';
   display: inline-block;
-  -webkit-mask-image: url("https://commandcrafterhd.github.io/Fallout4TerminalTheme/svg/title.svg");
+  -webkit-mask-image: url("https://raw.githubusercontent.com/duqc/shittytheme/main/THEsvg.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: cover;
   background-color: var(--highlight);
